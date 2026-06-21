@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Postcard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#f7d9e3,#fdeff4);
+    font-family:sans-serif;
+    padding:20px;
+}
+
+.postcard{
+    width:550px;
+    max-width:95%;
+    background:#fffdfb;
+    border-radius:20px;
+    padding:50px 40px;
+    position:relative;
+    box-shadow:0 15px 40px rgba(0,0,0,0.12);
+    border:1px solid #f2d8df;
+}
+
+.stamp{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:65px;
+    height:75px;
+    border:2px dashed #e6a3b7;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    background:#fff7fa;
+}
+
+.heart{
+    position:absolute;
+    top:20px;
+    right:25px;
+    font-size:32px;
+    color:#e6a3b7;
+}
+
+.line{
+    border-top:1px solid #f3dce3;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+.message{
+    text-align:center;
+    color:#7b5c67;
+    font-size:2rem;
+    line-height:2;
+    letter-spacing:1px;
+}
+
+.signature{
+    text-align:right;
+    margin-top:30px;
+    color:#c58ea1;
+    font-style:italic;
+    font-size:1.1rem;
+}
+
+.flower{
+    position:absolute;
+    bottom:20px;
+    left:25px;
+    font-size:28px;
+    color:#e6a3b7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="postcard">
+
+    <div class="stamp">🌸</div>
+
+    <div class="heart">♡</div>
+
+    <div class="line"></div>
+
+    <div class="message">
+        အကို့<br>
+        ရော့ ရေသောက်<br>
+        သူများပေးမပစ်နဲ့နော်
+    </div>
+
+    <div class="signature">
+        with love ♡
+    </div>
+
+    <div class="flower">❀</div>
+
+</div>
+
+</body>
+</html>
